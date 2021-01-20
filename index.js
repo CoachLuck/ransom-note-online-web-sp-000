@@ -15,3 +15,5 @@ function buildHistogram(mag) {
 function canBuildNote() {
 
 }
+
+buildHistogram(magazine)
