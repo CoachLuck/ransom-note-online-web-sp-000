@@ -23,7 +23,7 @@ function canBuildNote(mag, note) {
 
       console.log("Letter:", noteChar, "Note Count:", noteCount, "Mag Count:", magCount)
   }
-  
+
   return true;
 }
 
