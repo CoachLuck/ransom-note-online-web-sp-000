@@ -14,7 +14,7 @@ function buildHistogram(mag) {
     if (arr[mag[i]]) {
       console.log("WOAH")
     }
-    
+
     arr.mag[i] = 0
   }
   console.log(arr)
