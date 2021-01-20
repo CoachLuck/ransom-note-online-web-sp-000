@@ -5,6 +5,7 @@ function buildHistogram(mag) {
   // loop through the chars in the magazine
     // add/update the node in the historgram
 
+  let start = mag[0]
   let hist = {chars: { mag[0]: 0 } }
   for (let i = 0; i < mag.length; i++) {
     let current = mag[i]
