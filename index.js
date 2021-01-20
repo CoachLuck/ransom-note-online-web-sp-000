@@ -6,7 +6,7 @@ function buildHistogram(mag) {
     // add/update the node in the historgram
 
   let start = mag[0]
-  let hist = {`${mag[0]}: 0 `}
+  let hist = `{${mag[0]}: 0 }`
   console.log(hist)
   for (let i = 0; i < mag.length; i++) {
     let current = mag[i]
