@@ -26,4 +26,4 @@ function canBuildNote(mag, note) {
   return true;
 }
 
-canBuildNote(magazine, note)
+console.log(canBuildNote(magazine, note))
