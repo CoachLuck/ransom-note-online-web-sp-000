@@ -19,6 +19,7 @@ function canBuildNote(mag, note) {
       let magCount = magGram[noteChar];
       if (magCount - noteCount < 0) {
         return false;
+        break;
       }
 
       console.log("Letter:", noteChar, "Note Count:", noteCount, "Mag Count:", magCount)
