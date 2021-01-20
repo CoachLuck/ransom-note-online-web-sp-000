@@ -9,7 +9,7 @@ function buildHistogram(mag) {
   var arr = {}
   for (let i = 0; i < mag.length; i++) {
     if (arr[mag[i]] == null) {
-      arr[mag[i]] = 0
+      arr[mag[i]] = 1
     } else {
       arr[mag[i]] = arr[mag[i]] + 1;
     }
