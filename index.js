@@ -17,7 +17,7 @@ function canBuildNote(mag, note) {
       let noteChar = note[i];
             console.log(noteChar)
       let magChar = mag[noteChar];
-
+      console.log(mag)
       console.log(magChar)
 
   }
