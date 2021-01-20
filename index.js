@@ -16,6 +16,7 @@ function buildHistogram(mag) {
   }
 
   console.log(arr)
+  return arr
 }
 
 function canBuildNote() {
