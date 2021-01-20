@@ -10,4 +10,4 @@ function canBuildNote() {
 
 }
 
-buildHistogram(magazine)
+console.log(buildHistogram(magazine))
