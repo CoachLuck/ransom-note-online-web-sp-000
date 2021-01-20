@@ -6,8 +6,10 @@ function buildHistogram(mag) {
   return arr
 }
 
-function canBuildNote() {
-
+function canBuildNote(mag, note) {
+  var noteGram = buildHistogram(note)
+  var arr = {}
+  mag.forEach()
 }
 
 console.log(buildHistogram(magazine))
