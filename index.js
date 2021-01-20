@@ -13,6 +13,14 @@ function canBuildNote(mag, note) {
   console.log(noteGram)
   var magGram = buildHistogram(mag)
   console.log(magGram)
+  for (let i = 0; i < note.length; i++) {
+      let noteChar = note[i];
+            console.log(noteChar)
+      let magChar = mag[noteChar];
+
+      console.log(magChar)
+
+  }
 }
 
 canBuildNote(magazine, note)
