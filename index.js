@@ -15,7 +15,7 @@ function canBuildNote(mag, note) {
   console.log(magGram)
   for (let i = 0; i < note.length; i++) {
       let noteChar = note[i];
-            console.log(noteChar)
+      let count = noteGram[noteChar]
       let magChar = magGram[noteChar];
       console.log(magChar)
 
