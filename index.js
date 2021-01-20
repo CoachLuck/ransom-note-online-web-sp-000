@@ -9,8 +9,9 @@ function buildHistogram(mag) {
   console.log(hist)
   for (let i = 0; i < mag.length; i++) {
     let current = mag[i]
-    console.log(hist[current])
+    arr.push(mag[i] + ": 0")
   }
+  console.log(arr)
 }
 
 function canBuildNote() {
