@@ -7,6 +7,7 @@ function buildHistogram(mag) {
 
   let start = mag[0]
   let hist = {chars: { start: 0 } }
+  console.log(hist)
   for (let i = 0; i < mag.length; i++) {
     let current = mag[i]
     console.log(hist[current])
