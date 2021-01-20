@@ -6,15 +6,16 @@ function buildHistogram(mag) {
     // add/update the node in the historgram
 
 
-  var arr = { `${mag[0]}`: 1 }
+  var arr = {}
   console.log(arr)
   for (let i = 0; i < mag.length; i++) {
+
     let current = mag[i]
     if (arr[mag[i]]) {
       console.log("WOAH")
     }
-
-    arr.push(mag[i] + ": 0")
+    
+    arr.mag[i] = 0
   }
   console.log(arr)
 }
