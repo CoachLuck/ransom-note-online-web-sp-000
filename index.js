@@ -1,6 +1,6 @@
 let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
 "e", "n", "i", "c", "e", "c", "l", "o", "t", "h", "e", "s", "t"]
-let note = "heeeeeeereisat"
+let note = "hereisat"
 
 function buildHistogram(mag) {
   var arr = {}
@@ -20,6 +20,7 @@ function canBuildNote(mag, note) {
       if (magCount - noteCount < 0) {
         return false;
       }
+
       console.log("Letter:", noteChar, "Note Count:", noteCount, "Mag Count:", magCount)
   }
   return true;
