@@ -9,7 +9,7 @@ function buildHistogram(mag) {
 }
 
 function canBuildNote(mag, note) {
-  var noteGram = buildHistogram(note)
+  var noteGram = buildHistogram(note.split())
   console.log(noteGram)
   var magGram = buildHistogram(mag)
   console.log(magGram)
