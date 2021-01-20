@@ -10,9 +10,7 @@ function buildHistogram(mag) {
 
 function canBuildNote(mag, note) {
   var noteGram = buildHistogram(note.split(''))
-  console.log(noteGram)
   var magGram = buildHistogram(mag)
-  console.log(magGram)
   for (let i = 0; i < note.length; i++) {
       let noteChar = note[i];
       let noteCount = noteGram[noteChar]
@@ -20,8 +18,6 @@ function canBuildNote(mag, note) {
       if (magCount == null || magCount - noteCount < 0) {
         return false;
       }
-
-      console.log("Letter:", noteChar, "Note Count:", noteCount, "Mag Count:", magCount)
       noteCount--;
       magCount--;
   }
